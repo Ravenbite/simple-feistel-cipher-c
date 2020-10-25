@@ -16,7 +16,8 @@ simple feistel blockcipher [128,256,512]  with cipher feedback mode
  
  
  Features:
- -[128,256,512]bit block cipher with encryption function and since -- it should be invertible (I guess) -- decryption should be no problem too.
+ -[128,256,512]bit block cipher with encryption function and since -- it should be invertible (I guess) -- decryption should be no problem too
+  (just in case you don't wanna use cfb mode which doesn't require an invertible blockcipher).
  -memory mapping of small file views till full file has been encrypted
  -autodetect of encryption state and cipher parameters when decrypting a file
  
